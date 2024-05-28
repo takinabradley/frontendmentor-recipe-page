@@ -1,0 +1,10 @@
+.App {
+
+}
+
+@media (min-width: 500px) {
+  .App {
+      padding: 10% 20%;
+      background-color: var(--eggshell);
+  }
+}

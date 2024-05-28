@@ -1,0 +1,114 @@
+.RecipePage {
+  background-color: antiquewhite;
+  color: var(--wenge-brown);
+  font-weight: var(--fw-light);
+  font-family: "Outfit";
+  max-width: 1300px;
+}
+
+.recipeImg {
+  display: block;
+  max-width: 100%;
+}
+
+.paddingWrapper {
+  padding: 10%;
+  background-color: white;
+}
+
+.section {
+  margin: 2em 0;
+}
+
+.section--prep {
+  background-color: var(--background-accent);
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.sectionHeading {
+  color: var(--primary);
+  font-size: var(--fs-large);
+  font-family: "Young Serif";
+  margin: 0;
+}
+
+.sectionHeading--intro {
+  color: var(--dark-charcoal);
+  font-size: var(--fs-large);
+  margin: 0;
+  font-weight: var(--fw-medium);
+}
+
+.sectionHeading--prep {
+  color: var(--primary-accent);
+  font-size: var(--fs-medium);
+  font-family: "Outfit";
+}
+
+.section ul, .section ol {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 0;
+  padding: 1.5em;
+}
+
+.section ul li, .section ol li {
+  padding-left: 1.5em;
+  position: relative;
+}
+
+.section ul li::marker, .section ol li::marker {
+  color: var(--primary);
+  font-weight: var(--fw-heavy);
+}
+
+.listAccent {
+  font-weight: var(--fw-heavy);
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--light-grey);
+  margin: 1em 0;
+  padding: 0;
+}
+
+.table {
+  width: 100%;
+}
+
+.table tr {
+  display: block;
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+}
+
+.table tr:not(:last-child) {
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.table td, .table th {
+  padding: 1em 2em;
+}
+
+.table td {
+  color: var(--primary);
+  font-weight: var(--fw-heavy);
+}
+
+@media (min-width: 400px) {
+  .RecipePage {
+    padding: 2em;
+    background-color: white;
+    border-radius: 20px;
+  }
+
+  .recipeImg {
+    border-radius: 10px;
+  }
+}
