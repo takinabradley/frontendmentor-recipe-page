@@ -101,7 +101,7 @@ hr {
   font-weight: var(--fw-heavy);
 }
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
   .RecipePage {
     padding: 2em;
     background-color: white;
@@ -110,5 +110,9 @@ hr {
 
   .recipeImg {
     border-radius: 10px;
+  }
+
+  .paddingWrapper {
+    padding: 2em 0;
   }
 }
